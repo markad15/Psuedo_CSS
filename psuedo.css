@@ -1,0 +1,32 @@
+div{
+    border: 3px solid black;
+    width: 500px;
+    height: 300px;
+    padding: 15px 25px 15px 25px;
+}
+
+div::first-line{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+div::first-letter{
+    color: blueviolet;
+    font-size: 30px;
+}
+
+span::before{
+    content: "@@";
+}
+
+h3::after{
+    content: "&&";
+}
+
+h2{
+    opacity: 0.8;
+}
+
+img{
+    opacity: 0.5;
+}
