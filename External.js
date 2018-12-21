@@ -33,6 +33,13 @@ function fun_precision()
 function fun_charAt()
 {
     var string1 = "I am from Angular Avengers";
-    var string2 = string1.charAt(3);
+    var string2 = string1.charAt(18);
+    document.getElementById("p_id").innerHTML = string2;
+}
+
+function fun_charascii()
+{
+    var string1 = "I am from Angular Avengers";
+    var string2 = string1.charCodeAt(10);
     document.getElementById("p_id").innerHTML = string2;
 }
