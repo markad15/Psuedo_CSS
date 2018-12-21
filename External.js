@@ -43,3 +43,35 @@ function fun_charascii()
     var string2 = string1.charCodeAt(10);
     document.getElementById("p_id").innerHTML = string2;
 }
+
+function fun_concat()
+{
+    var string1 = "I am from ";
+    var string1_1 = "Angular Avengers";
+    var string2 = string1.concat(string1_1);
+    document.getElementById("p_id").innerHTML = string2;
+}
+
+function fun_search()
+{
+    var string1 = "I am from Angular Avengers";
+    var string2 = string1.search("Angular");
+    document.getElementById("p_id").innerHTML = "We have string Angular at " + string2 + " position";
+}
+
+function fun_indexof()
+{
+    var string1 = "Hello Guys, I am from Angular Avengers and learning Angular script.";
+   // var string2 = string1.lastIndexOf("Angular");
+    var string2 = string1.indexOf("Angular");
+    document.getElementById("p_id").innerHTML = string2;
+}
+
+function fun_substring()
+{
+    var string1 = "I am from Angular Avengers";
+ //   var string2 = string1.slice(10,17);
+  //  var string2 = string1.substring(10,17);
+    var string2 = string1.substr(10,7);
+    document.getElementById("p_id").innerHTML = string2;
+}
