@@ -17,8 +17,22 @@ function getdetails_innerhtml()
 function fun_fixed()
 {
     var number1;
-    number1 = 15.25756;
+    number1 = 15.25796;
     var number2 = number1.toFixed(3);
 
     document.getElementById("p_id").innerHTML = number2;
+}
+
+function fun_precision()
+{
+    var num1 = 20.4256;
+    var num2 = num1.toPrecision(2);
+    document.getElementById("p_id").innerHTML = num2;
+}
+
+function fun_charAt()
+{
+    var string1 = "I am from Angular Avengers";
+    var string2 = string1.charAt(3);
+    document.getElementById("p_id").innerHTML = string2;
 }
