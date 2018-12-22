@@ -82,3 +82,11 @@ function fun_addition(num1,num2)
     var num3 = parseInt(num1) + parseInt(num2);
     document.getElementById("p_id").innerHTML = num3;
 }
+
+function fun_operator()
+{
+    var num1 = 20;
+    var num2 = 15;
+    
+    document.getElementById("p_id").innerHTML = (num1 = num2);
+}
