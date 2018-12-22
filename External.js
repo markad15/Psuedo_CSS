@@ -87,6 +87,43 @@ function fun_operator()
 {
     var num1 = 20;
     var num2 = 15;
+    // Example of "="
+   // document.getElementById("p_id").innerHTML = (num1 = num2);
+   // Example of "+="
+   // document.getElementById("p_id").innerHTML = (num1+=num2);
+   // Example of "-="
+ //  document.getElementById("p_id").innerHTML = (num1-=num2);
+    // Example of "*="
+   // document.getElementById("p_id").innerHTML = (num1*=num2);
+    // Example of "/="
+  //  document.getElementById("p_id").innerHTML = (num1/=num2);
+    // Example of "%="
+    document.getElementById("p_id").innerHTML = (num1%=num2);
+}
+
+
+function fun_Comp_Operator()
+{
+    var num1 = 20;
+    var num2 = 15;
     
-    document.getElementById("p_id").innerHTML = (num1 = num2);
+   // var num3 = (num1 == num2);
+   // var num3 = (num1 === "20");
+   // var num3 = (num1 != 21);
+    //  var num3 = (num1 !== "20");
+   // var num3 = (num1 > num2);
+   // var num3 = (num1 < num2);
+   // var num3 = (num1 >= 20);
+    var num3 = (num1 <= num2);
+    document.getElementById("p_id").innerHTML = num3;
+        
+}
+
+function fun_log_Operator()
+{
+    var num1 = 20;
+    var num2 = 15;
+    var num3 = (num1 < 30 && num2 > 14);
+    document.getElementById("p_id").innerHTML = num3;
+        
 }
