@@ -72,6 +72,7 @@ function fun_substring()
     var string1 = "I am from Angular Avengers";
  //   var string2 = string1.slice(10,17);
   //  var string2 = string1.substring(10,17);
-    var string2 = string1.substr(10,7);
+  //  var string2 = string1.substr(10,7);
+    var string2 = string1.substr(-9,-7);
     document.getElementById("p_id").innerHTML = string2;
 }
