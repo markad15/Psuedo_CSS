@@ -73,6 +73,12 @@ function fun_substring()
  //   var string2 = string1.slice(10,17);
   //  var string2 = string1.substring(10,17);
   //  var string2 = string1.substr(10,7);
-    var string2 = string1.substr(-9,-7);
+    var string2 = string1.substring(-5,-2);
     document.getElementById("p_id").innerHTML = string2;
+}
+
+function fun_addition(num1,num2)
+{
+    var num3 = parseInt(num1) + parseInt(num2);
+    document.getElementById("p_id").innerHTML = num3;
 }
