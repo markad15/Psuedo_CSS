@@ -114,16 +114,20 @@ function fun_Comp_Operator()
    // var num3 = (num1 > num2);
    // var num3 = (num1 < num2);
    // var num3 = (num1 >= 20);
-    var num3 = (num1 <= num2);
+      var num3 = (num1 <= num2);
+
     document.getElementById("p_id").innerHTML = num3;
-        
 }
 
 function fun_log_Operator()
 {
     var num1 = 20;
     var num2 = 15;
-    var num3 = (num1 < 30 && num2 > 14);
+
+    //var num3 = (num1 < 30 && num2 > 15);
+   // var num3 = (num1 == 21 || num2 == 15);
+    var num3 = !(num1 == 21);
+
     document.getElementById("p_id").innerHTML = num3;
         
 }
